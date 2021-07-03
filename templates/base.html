@@ -1,0 +1,97 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="zxx">
+<head>
+  <!-- Required meta tags-->
+  <meta charset="utf-8">
+  <!-- Title-->
+  <title>{% block title %}{% endblock %}| DK Portfolio</title>
+  <!-- Description-->
+  <meta name="description" content="Personal Portfolio Template">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- Favicons-->
+  <link rel="apple-touch-icon" sizes="180x180" href="img/favicons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="{% static 'img/favicons/favicon-32x32.png' %}">
+  <link rel="icon" type="image/png" sizes="16x16" href="{% static 'img/favicons/favicon-16x16.png' %}">
+  <!-- Web fonts-->
+  <link href="https://fonts.googleapis.com/css?family=Poppins:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i&amp;display=swap" rel="stylesheet">
+  <!-- CSS vendors-->
+  <link rel="stylesheet" href="{% static 'css/bootstrap-custom.css' %}">
+  <link rel="stylesheet" href="{% static 'css/ionicons.min.css' %}">
+  <link rel="stylesheet" href="{% static 'css/tiny-slider.css' %}">
+  <link rel="stylesheet" href="{% static 'css/lity.min.css' %}">
+  <link rel="stylesheet" href="{% static 'css/simplebar.min.css' %}">
+  <link rel="stylesheet" href="{% static 'css/jquery.mb.YTPlayer.min.css' %}">
+  <!-- Main CSS-->
+  <link rel="stylesheet" href="{% static 'css/main.css' %}">
+  <!-- CSS Color scheme-->
+  <link id="color-scheme" rel="stylesheet" href="{% static 'css/colors/main-darkgreen.css' %}">
+  <!-- Custom CSS (Add your custom CSS styles to this file)-->
+  <link rel="stylesheet" href="{% static 'css/custom.css' %}">
+  <!-- removeIf(customizerDist)-->
+  <link rel="stylesheet" href="{% static 'customizer/main.css' %}">
+  <!-- endremoveIf(customizerDist)-->
+</head>
+
+<body class="theme-dark">
+
+{% block body %}
+ 
+{% endblock %}
+  <!-- removeIf(customizerDist)-->
+  <div class="demo-tool">
+    <div class="tool-wrapper">
+      <span class="tool-toggler"><i class="icon ion-md-settings"></i></span>
+      <div class="tool-box">
+        <ul class="list-inline single-block color-switcher">
+          <li class="list-inline-item" style="background-color: #2c31ff;" data-path="{% static 'css/colors/main-blueviolet.css' %}"></li>
+          <li class="list-inline-item" style="background-color: #3460D1;" data-path="{% static 'css/colors/main-nightskyblue.css' %}"></li>
+          <li class="list-inline-item" style="background-color: #EE3158;" data-path="{% static 'css/colors/main-redpink.css' %}"></li>
+          <li class="list-inline-item" style="background-color: #007bff;" data-path="{% static 'css/colors/main-blue.css' %}"></li>
+          <li class="list-inline-item" style="background-color: #17a2b8;" data-path="{% static 'css/colors/main-cyan.css' %}"></li>
+          <li class="list-inline-item" style="background-color: #3365b0;" data-path="{% static 'css/colors/main-darkblue.css' %}"></li>
+          <li class="list-inline-item" style="background-color: #a435b7;" data-path="{% static 'css/colors/main-darkmagenta.css' %}"></li>
+          <li class="list-inline-item" style="background-color: #c93e70;" data-path="{% static 'css/colors/main-darkpink.css' %}"></li>
+          <li class="list-inline-item" style="background-color: #bf2a3d;" data-path="{% static 'css/colors/main-darkred.css' %}"></li>
+          <li class="list-inline-item" style="background-color: #28a745;" data-path="{% static 'css/colors/main-green.css' %}"></li>
+          <li class="list-inline-item" style="background-color: #6610f2;" data-path="{% static 'css/colors/main-indigo.css' %}"></li>
+          <li class="list-inline-item" style="background-color: #fd7e14;" data-path="{% static 'css/colors/main-orange.css' %}"></li>
+          <li class="list-inline-item" style="background-color: #e83e8c;" data-path="{% static 'css/colors/main-pink.css' %}"></li>
+          <li class="list-inline-item" style="background-color: #6f42c1;" data-path="{% static 'css/colors/main-purple.css' %}"></li>
+          <li class="list-inline-item" style="background-color: #dc3545;" data-path="{% static 'css/colors/main-red.css' %}"></li>
+          <li class="list-inline-item" style="background-color: #20c997;" data-path="{% static 'css/colors/main-teal.css' %}"></li>
+          <li class="list-inline-item" style="background-color: #333;" data-path="{% static 'css/colors/main-dark.css' %}"></li>
+          <li class="list-inline-item" style="background-color: #78b230;" data-path="{% static 'css/colors/main-yellowgreen.css' %}"></li>
+          <li class="list-inline-item" style="background-color: #E16F7C;" data-path="{% static 'css/colors/main-tangopink.css' %}"></li>
+          <li class="list-inline-item" style="background-color: #6F73D2;" data-path="{% static 'css/colors/main-moodyblue.css' %}"></li>
+          <li class="list-inline-item" style="background-color: #664C43;" data-path="{% static 'css/colors/main-brown.css' %}"></li>
+          <li class="list-inline-item" style="background-color: #4770D9;" data-path="{% static 'css/colors/main-royalblue.css' %}"></li>
+          <li class="list-inline-item" style="background-color: #ffb100;" data-path="{% static 'css/colors/main-darkyellow.css' %}"></li>
+        </ul>
+        <div class="single-block buy-btn mb-0">
+          <a class="btn btn-success btn-sm" target="_blank" href="https://themeforest.net/item/kitzu-personal-portfolio-template/26075107" role="button">Buy Kitzu</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- endremoveIf(customizerDist)-->
+  <!-- Scripts-->
+  <script src="{% static 'js/jquery.min.js' %}"></script>
+  <script src="{% static 'js/bootstrap.bundle.min.js' %}"></script>
+  <script src="{% static 'js/imagesloaded.pkgd.min.js' %}"></script>
+  <script src="{% static 'js/isotope.pkgd.min.js' %}"></script>
+  <script src="{% static 'js/animatedModal.js' %}"></script>
+  <script src="{% static 'js/tiny-slider.js' %}"></script>
+  <script src="{% static 'js/lity.min.js' %}"></script>
+  <script src="{% static 'js/simplebar.min.js' %}"></script>
+  <script src="{% static 'js/jquery.mb.YTPlayer.min.js' %}"></script>
+  <script src="{% static 'js/main.js' %}"></script>
+  <!-- Custom JS (Add your custom JS scripts to this file)-->
+  <script src="{% static 'js/custom.js' %}"></script>
+  <!-- removeIf(customizerDist)-->
+  <script src="{% static 'customizer/main.js' %}"></script>
+  <!-- endremoveIf(customizerDist)-->
+</body>
+
+</html>
